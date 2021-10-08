@@ -3,8 +3,6 @@ import Search from '../../Components/search';
 import Sidebar from '../../Components/Sidebar';
 import { Card } from 'antd';
 import { Modal } from 'antd';
-
-
 import './style.scss';
 
 function Dashboard() {
