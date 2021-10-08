@@ -1,0 +1,55 @@
+@import '../../App.scss';
+ 
+.login{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    @media(min-width: 700px){
+        flex-direction: row;
+    }    
+    &__img{
+        @media(min-width: 700px){
+            width: 50%;    
+        }
+        img{
+            width: 100%;
+        }
+    }
+    &__form{
+        @media(min-width: 700px){
+            width: 50%;    
+        }
+        text-align: center;
+        form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            input{
+                margin:4px;
+                font-size: 1.8rem;
+                padding:4px;
+                border-radius: 12px;
+                }
+            button{                
+                font-size: 1.8rem;
+                padding:8px;
+                color:$blanco;
+                border-radius: 12px;
+                background-color: $color-principal;
+                border:none;
+                &:hover{
+                    cursor: pointer;
+                    
+                }
+                }
+            }
+        }
+    }
+
+.error{
+    color:red;
+}
