@@ -1,17 +1,13 @@
-import React from 'react'
+import React from 'react';
 import { useForm } from "react-hook-form";
-import form from '../../assets/form.svg'
-
-import './style.scss'
+import form from '../../assets/form.svg';
+import './style.scss';
 
 const Register = () => {
 
-    const { register, formState: { errors }, handleSubmit } = useForm();
-    
+    const { register, formState: { errors }, handleSubmit } = useForm();  
 
     const onSubmit = data => console.log(data);
-
-
 
     return (
         <div className="register">

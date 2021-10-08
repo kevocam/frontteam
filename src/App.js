@@ -1,12 +1,10 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Home from './Pages/Home/'
 import Dashboard from './Pages/Dashboard/';
 import Error404 from './Pages/Error404/';
 import Login from './Pages/Login/';
 import Register from './Pages/Register/';
 import Message from './Pages/Dashboard/Message.jsx'
 import Profile from './Pages/Dashboard/Profile.jsx'
-
 import './App.scss';
 
 function App() {
